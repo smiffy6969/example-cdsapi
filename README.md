@@ -27,6 +27,13 @@ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
+Setup your cdsapi key in the .cdsapirc file.
+
+To run locally you need to copy this file to your home directory.
+
+To run in docker you need to ensure the details are in the .cdsapi file in this project so they can be copied over.
+
 ### Develop on Dev server
 
 ```bash
